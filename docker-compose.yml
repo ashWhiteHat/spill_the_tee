@@ -1,0 +1,7 @@
+version: '3'
+services:
+  sgx:
+    build: .
+    container_name: sgx
+    tty: true
+    stdin_open: true
