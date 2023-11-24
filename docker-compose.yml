@@ -5,3 +5,5 @@ services:
     container_name: sgx
     tty: true
     stdin_open: true
+    volumes:
+      - .:/app
