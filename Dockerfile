@@ -12,5 +12,3 @@ RUN wget https://download.01.org/intel-sgx/sgx-linux/2.8/distro/ubuntu18.04-serv
     echo 'yes' | ./sgx_linux_x64_sdk_2.8.100.3.bin
 
 WORKDIR /opt/intel/sgxsdk/SampleCode/SampleEnclave
-
-RUN make
