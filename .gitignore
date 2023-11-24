@@ -1,0 +1,11 @@
+enclave.*
+example
+App/*.o
+App/Enclave_u.*
+App/Edger8rSyntax/*.o
+App/TrustedLibrary/*.o
+Enclave/*.o
+Enclave/Enclave_t.*
+Enclave/Edger8rSyntax/*.o
+Enclave/TrustedLibrary/*.o
+.config_*
